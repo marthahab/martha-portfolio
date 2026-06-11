@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:       #13131f;
+  --bg2:      #1a1a2e;
+  --bg3:      #1e1e32;
+  --card:     #22223a;
+  --gold:     #c9a84c;
+  --gold2:    #e8c97a;
+  --gold3:    #f5e0a0;
+  --gold-dim: #8a6e2f;
+  --text:     #f0ede8;
+  --muted:    #8a8aaa;
+  --border:   rgba(201, 168, 76, 0.2);
+  --radius:   10px;
+  --font:     'Raleway', sans-serif;
+  --display:  'Cinzel', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font);
+}

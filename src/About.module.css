@@ -1,0 +1,127 @@
+.about {
+  padding: 6rem 6%;
+  background: var(--bg2);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label::after {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.5;
+}
+
+.title {
+  font-family: var(--display);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  margin-bottom: 0.6rem;
+}
+
+.rule {
+  width: 52px;
+  height: 2px;
+  background: var(--gold);
+  opacity: 0.6;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: rgba(240, 237, 232, 0.75);
+  margin-bottom: 2.5rem;
+}
+
+.subtitle strong {
+  color: var(--text);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.statsCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.statBox {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.3rem 1.5rem;
+}
+
+.statNum {
+  font-family: var(--display);
+  font-size: 1.8rem;
+  color: var(--gold);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.statDesc {
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.chips {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.chip {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  color: var(--gold);
+  background: rgba(201, 168, 76, 0.07);
+}
+
+.body p {
+  font-size: 0.95rem;
+  color: rgba(240, 237, 232, 0.7);
+  line-height: 1.88;
+  margin-bottom: 1.1rem;
+  font-weight: 300;
+}
+
+.body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about { padding: 4rem 6%; }
+  .grid { grid-template-columns: 1fr; gap: 2rem; }
+}
