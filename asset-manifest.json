@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/martha-portfolio/static/css/main.d4bb985c.css",
+    "main.js": "/martha-portfolio/static/js/main.e85def72.js",
+    "index.html": "/martha-portfolio/index.html",
+    "main.d4bb985c.css.map": "/martha-portfolio/static/css/main.d4bb985c.css.map",
+    "main.e85def72.js.map": "/martha-portfolio/static/js/main.e85def72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4bb985c.css",
+    "static/js/main.e85def72.js"
+  ]
+}
