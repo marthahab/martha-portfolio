@@ -8,24 +8,23 @@ const projects = [
     icon: '🛠',
     tag: 'Full Stack',
     title: 'Pharmalook',
-    desc: 'A full-stack web application.This website helps people who want medicines.It finds the pharmacies where that medicine is belong.',
-    tech: ['Python', 'javascript', 'css', 'sqllite'],
+    desc: 'A full-stack web application. This website helps people who want medicines. It finds the pharmacies where that medicine is available.',
+    tech: ['Python', 'JavaScript', 'CSS', 'SQLite'],
   },
   {
     icon: '📋',
-    tag: 'fullstack',
-    title: 'Almuni managment',
-    desc: ' It is a platform that connects graduates with their institution and fellow alumni while managing alumni information, events, communications, and career opportunities.',
-    tech: ['typescript', 'react', 'sqllite', 'python'],
+    tag: 'Full Stack',
+    title: 'Alumni Management',
+    desc: 'A platform that connects graduates with their institution and fellow alumni while managing alumni information, events, communications, and career opportunities.',
+    tech: ['TypeScript', 'React', 'SQLite', 'Python'],
   },
   {
     icon: '🌐',
     tag: 'E-commerce',
-    title: 'Digital merkato',
-    desc: 'It is a web-based platform that digitalizes the traditional marketplace of Merkato,connecting buyers and sellers in one centralized system.',
+    title: 'Digital Merkato',
+    desc: 'A web-based platform that digitalizes the traditional marketplace of Merkato, connecting buyers and sellers in one centralized system.',
     tech: ['Nest.js', 'Next.js', 'Google Workspace'],
   },
-  
 ];
 
 export default function Portfolio() {

@@ -27,7 +27,7 @@ export default function Hero() {
             Full Stack Developer / Virtual Assistant
           </div>
           <p className={styles.desc}>
-            Software engineering student at BITS College with hands-on experience in fullstsck
+            Software engineering student at BITS College with hands-on experience in full-stack
             development, database systems, and scalable application design — alongside a track
             record in virtual assistance and team coordination.
           </p>
